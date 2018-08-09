@@ -1,9 +1,39 @@
 div {
   text-align: center;
+  background-color: #F9F9F9;
+  padding: 20px;
+  margin: 10px;
 }
 
 img {
-  display:block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#boulders {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+.Vgrade {
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+th {
+  background-color: lightGrey;
+}
+
+ul {
+  list-style: inside;
+  width: auto;
+  text-align: left;
+  list-style-type: square;
+  padding: 0;
 }
